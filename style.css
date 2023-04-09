@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #fffdc2 0%, #fffd9c 20%, #d8ff8e 40%, #a5ff8e 60%, #8effc9 80%, #9ec9ff 100%);
+  }
+  
+  #contenedor-adivinanzas {
+    text-align: center;
+    background-color: #e67e22;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  #contenedor-adivinanzas h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #contenedor-adivinanzas p {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  #contenedor-adivinanzas form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #contenedor-adivinanzas input[type="text"] {
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  #contenedor-adivinanzas button[type="submit"] {
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #2980b9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .oculto {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #contenedor-adivinanzas {
+      padding: 10px;
+    }
+    
+    #contenedor-adivinanzas h2 {
+      font-size: 24px;
+    }
+    
+    #contenedor-adivinanzas p {
+      font-size: 20px;
+    }
+    
+    #contenedor-adivinanzas input[type="text"] {
+      font-size: 20px;
+      padding: 8px;
+    }
+    
+    #contenedor-adivinanzas button[type="submit"] {
+      font-size: 20px;
+      padding: 8px 16px;
+    }
+    
+    #resultado {
+      font-size: 20px;
+    }
+  }
+  
