@@ -26,7 +26,7 @@ const adivinanzas = [
       `,
   },
   {
-    pregunta: "Término utilizado en matemáticas para referirse a una figura geométrica que tiene todos sus lados y ángulos iguales (8 letras) <br> E _ _ _ L _ _ O",
+    pregunta: "Término utilizado en matemáticas para referirse a una figura geométrica que tiene todos sus lados y ángulos iguales (8 letras) <br> E _ _ _ L _ _ _ _ O",
     respuesta: "equilátero",
     mensaje: "Busca en el fondo de la última caja de plástico del comedor",
     html: `
