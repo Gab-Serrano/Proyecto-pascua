@@ -1,11 +1,11 @@
 const adivinanzas = [
   {
-    pregunta: "Perteneciente al reino de los hongos (8 letras): M_ C _ _ _ _ A",
-    respuesta: "micotina",
-    mensaje: "Busca en el fondo del mueble del lavaplatos",
+    pregunta: "Perteneciente al reino de los hongos (8 letras): M_ C _ t _ _ A",
+    respuesta: "micótica",
+    mensaje: "Busca en el fondo del mueble del lavaplatos. Hay 5.",
     html: `
         <h2>Pregunta 1</h2>
-        <p>Perteneciente al reino de los hongos  </br> (8 letras) </br> M _ C _ _ _ N A</p>
+        <p>Perteneciente al reino de los hongos (8 letras): M_ C _ t _ _ A</p>
         <form>
           <input type="text" placeholder="Escribe tu respuesta">
           <button type="submit" id="botonEnviar">Enviar</button>
@@ -15,7 +15,7 @@ const adivinanzas = [
   {
     pregunta: "Orificio del oído interno que controla el equilibrio y la audición  </br> (6 letras) <br> _ E _ _ _ B U _ O",
     respuesta: "vestíbulo",
-    mensaje: "Busca detras del trono del Ludo",
+    mensaje: "Busca detras del trono del Ludo. Hay 6.",
     html: `
         <h2>Pregunta 2</h2>
         <p>Orificio del oído interno que controla el equilibrio y la audición  </br> (6 letras) <br> _ E _ _ _ B U _ O</p>
@@ -41,7 +41,7 @@ const adivinanzas = [
   {
     pregunta: "País europeo que limita con Rusia y Letonia (7 letras) <br> _ _ _ O _ _ A",
     respuesta: "estonia",
-    mensaje: "Busca en la caja de Zelda",
+    mensaje: "Busca en la caja de Zelda. Hay 4.",
     html: `
         <h2>Pregunta 4</h2>
         <p>País europeo que limita con Rusia y Letonia <br> (7 letras) <br> _ _ _ O _ _ A</p>
@@ -54,7 +54,7 @@ const adivinanzas = [
   {
     pregunta: "Nombre de mi actor BL thai favorito (8) <br> _ h _ P _ _ _ T",
     respuesta: "Ohm Pawat",
-    mensaje: "Buesca en mi ukelele",
+    mensaje: "Buesca en mi ukelele. Hay 4.",
     html: `
         <h2>Pregunta 5</h2>
         <p>Nombre de mi actor BL thai favorito (8) <br> _ h _ P _ _ _ T</p>
@@ -67,7 +67,7 @@ const adivinanzas = [
   {
     pregunta: "Nombre de mi grupo de múscia asiatica favorito en todo el mundo universal (Nombre completo en el idioma original) (Sin pistas porque deberías saber)",
     respuesta: "ずっと真夜中でいいのに",
-    mensaje: "Busca en el fondo del saco de dormir",
+    mensaje: "Busca en el fondo del saco de dormir. Hay 4.",
     html: `
         <h2>Pregunta 6</h2>
         <p>Nombre de mi grupo de múscia asiatica favorito en todo el mundo universal (Nombre completo en el idioma original) <br> (Sin pistas porque deberías saber)</p>
