@@ -20,8 +20,12 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    min-width: 60%;
+    min-height: 50vh;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
   }
   
   #contenedor-adivinanzas h2 {
@@ -41,17 +45,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    max-width: 80%;
   }
   
-  #contenedor-adivinanzas input[type="text"] {
+  #contenedor-adivinanzas form input[type="text"] {
     font-size: 24px;
     padding: 10px;
     margin-right: 10px;
     border: none;
     border-radius: 20px;
+    text-align: center;
     width: 100%;
-    max-width: 300px;
   }
   
   #contenedor-adivinanzas button[type="submit"] {
@@ -72,10 +76,35 @@
     color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
   }
+
+  #siguiente{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #2980b9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    max-width: 70%;
+    text-align: center;
+  }
+
+  #texto-resultado{
+    margin-top: 20px;
+  }
+
+  #botonEnviar{
+    margin-top: 20px;
+  }
+
+  .oculto{
+    display: none;
+  }
   
   @media only screen and (max-width: 768px) {
     #contenedor-adivinanzas {
       padding: 10px;
+      max-width: 80%;
     }
     
     #contenedor-adivinanzas h2 {
@@ -84,11 +113,16 @@
     
     #contenedor-adivinanzas p {
       font-size: 20px;
+      max-width: 95%;
     }
     
     #contenedor-adivinanzas input[type="text"] {
       font-size: 20px;
       padding: 8px;
+    }
+
+    #contenedor-adivinanzas form input[type="text"]::placeholder {
+      font-size: 20px;
     }
     
     #contenedor-adivinanzas button[type="submit"] {
@@ -99,5 +133,6 @@
     #resultado {
       font-size: 20px;
     }
+
   }
   
